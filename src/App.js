@@ -2,8 +2,10 @@ import "./App.css";
 // import Accordian from "./components/accordion";
 // import { RandomColor } from "./components/randon-color";
 // import StarRating from "./components/star-rating";
-import ImageSlider from "./components/image-slider";
-import LoadMoreData from "./components/load-more-data";
+// import ImageSlider from "./components/image-slider";
+// import LoadMoreData from "./components/load-more-data";
+import TreeView from "./components/tree-view";
+import menus from "./components/tree-view/data";
 
 function App() {
   return (
@@ -22,7 +24,9 @@ function App() {
           page={"1"}
         /> */}
         {/* This is Load More Products Component */}
-        <LoadMoreData />
+        {/* <LoadMoreData /> */}
+        {/* This is Tree View/ Menu UI Component/ Recursive Navigation*/}
+        <TreeView menus={menus} />
       </div>
     </>
   );
