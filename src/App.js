@@ -1,4 +1,5 @@
 import "./App.css";
+import QRCodeGenerator from "./components/qr-code-generator";
 // import Accordian from "./components/accordion";
 // import { RandomColor } from "./components/randon-color";
 // import StarRating from "./components/star-rating";
@@ -26,7 +27,9 @@ function App() {
         {/* This is Load More Products Component */}
         {/* <LoadMoreData /> */}
         {/* This is Tree View/ Menu UI Component/ Recursive Navigation*/}
-        <TreeView menus={menus} />
+        {/* <TreeView menus={menus} /> */}
+        {/* This is QR Code Generator Component */}
+        <QRCodeGenerator />
       </div>
     </>
   );
