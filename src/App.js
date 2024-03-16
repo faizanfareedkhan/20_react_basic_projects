@@ -1,4 +1,5 @@
 import "./App.css";
+import GithubProfileFInder from "./components/github-profile-finder";
 // import Accordian from "./components/accordion";
 // import { RandomColor } from "./components/randon-color";
 // import StarRating from "./components/star-rating";
@@ -10,7 +11,7 @@ import "./App.css";
 // import LightDarkMode from "./components/light-dark-mode";
 // import ScrollIndicator from "./components/scroll-indicator";
 // import TabTest from "./components/custom-tabs/tab-test";
-import ModalTest from "./components/custom-modal-popup/modal-test";
+// import ModalTest from "./components/custom-modal-popup/modal-test";
 
 function App() {
   return (
@@ -41,7 +42,9 @@ function App() {
         {/* This is Custom Tabs Component */}
         {/* <TabTest /> */}
         {/* This is Custom Modal Component */}
-        <ModalTest />
+        {/* <ModalTest /> */}
+        {/* This is Github Profile Finder Component */}
+        <GithubProfileFInder />
       </div>
     </>
   );
