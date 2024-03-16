@@ -1,5 +1,3 @@
-import "./App.css";
-import GithubProfileFInder from "./components/github-profile-finder";
 // import Accordian from "./components/accordion";
 // import { RandomColor } from "./components/randon-color";
 // import StarRating from "./components/star-rating";
@@ -12,6 +10,9 @@ import GithubProfileFInder from "./components/github-profile-finder";
 // import ScrollIndicator from "./components/scroll-indicator";
 // import TabTest from "./components/custom-tabs/tab-test";
 // import ModalTest from "./components/custom-modal-popup/modal-test";
+// import GithubProfileFInder from "./components/github-profile-finder";
+import SearchAutoComplete from "./components/search-autocomplete-with-api";
+import "./App.css";
 
 function App() {
   return (
@@ -44,7 +45,9 @@ function App() {
         {/* This is Custom Modal Component */}
         {/* <ModalTest /> */}
         {/* This is Github Profile Finder Component */}
-        <GithubProfileFInder />
+        {/* <GithubProfileFInder /> */}
+        {/* This is Search Auto Complete Component */}
+        <SearchAutoComplete />
       </div>
     </>
   );
