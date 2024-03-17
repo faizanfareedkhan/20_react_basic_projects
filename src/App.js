@@ -1,4 +1,4 @@
-import Accordian from "./components/accordion";
+// import Accordian from "./components/accordion";
 // import { RandomColor } from "./components/randon-color";
 // import StarRating from "./components/star-rating";
 // import ImageSlider from "./components/image-slider";
@@ -22,7 +22,7 @@ function App() {
     <>
       <div className="App">
         {/* This is our Accordian Co>mponent */}
-        <Accordian />
+        {/* <Accordian /> */}
 
         {/* This is Random Color Component */}
         {/* <RandomColor /> */}
