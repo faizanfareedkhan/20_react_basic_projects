@@ -1,4 +1,4 @@
-// import Accordian from "./components/accordion";
+import Accordian from "./components/accordion";
 // import { RandomColor } from "./components/randon-color";
 // import StarRating from "./components/star-rating";
 // import ImageSlider from "./components/image-slider";
@@ -13,16 +13,16 @@
 // import GithubProfileFInder from "./components/github-profile-finder";
 // import SearchAutoComplete from "./components/search-autocomplete-with-api";
 // import TicTacToe from "./components/tic-tac-toe";
+// import FeatureFlags from "./components/feature-flag";
+// import FeatureFlagGlobalState from "./components/feature-flag/context";
 import "./App.css";
-import FeatureFlags from "./components/feature-flag";
-import FeatureFlagGlobalState from "./components/feature-flag/context";
 
 function App() {
   return (
     <>
       <div className="App">
         {/* This is our Accordian Co>mponent */}
-        {/* <Accordian /> */}
+        <Accordian />
 
         {/* This is Random Color Component */}
         {/* <RandomColor /> */}
@@ -68,9 +68,9 @@ function App() {
         {/* <TicTacToe /> */}
 
         {/* This is Feature Flag Implementation Component */}
-        <FeatureFlagGlobalState>
+        {/* <FeatureFlagGlobalState>
           <FeatureFlags />
-        </FeatureFlagGlobalState>
+        </FeatureFlagGlobalState> */}
       </div>
     </>
   );

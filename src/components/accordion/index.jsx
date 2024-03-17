@@ -23,8 +23,15 @@ const Accordian = () => {
 
   return (
     <div className="wrapper">
-      <button onClick={() => setEnableMultiSelection(!enableMultiSelection)}>
-        Enabel Multi Selection
+      <button
+        onClick={() =>
+          setEnableMultiSelection(
+            !enableMultiSelection,
+            setSelected(null, setMultiple([]))
+          )
+        }
+      >
+        {enableMultiSelection ? "Disable" : "Enable"} Multi Selection
       </button>
       <div className="accordian">
         {data && data.length > 0 ? (
@@ -44,7 +51,7 @@ const Accordian = () => {
 
               {/* This is first functionality */}
               {enableMultiSelection
-                ? multiple.indexOf(dataItem) !== -1 && (
+                ? multiple.indexOf(dataItem.id) !== -1 && (
                     <div className="content">{dataItem.answer}</div>
                   )
                 : selected === dataItem.id && (
