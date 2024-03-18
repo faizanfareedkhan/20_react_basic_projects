@@ -16,8 +16,8 @@
 // import FeatureFlags from "./components/feature-flag";
 // import FeatureFlagGlobalState from "./components/feature-flag/context";
 // import UseFetchHookTest from "./components/use-fetch/test";
+// import UseOnClickOutsideTest from "./components/use-outside-click/test";
 import "./App.css";
-import UseOnClickOutsideTest from "./components/use-outside-click/test";
 
 function App() {
   return (
@@ -78,7 +78,7 @@ function App() {
         {/* <UseFetchHookTest /> */}
 
         {/* This is UseonClickOutside Custom Hook Component */}
-        <UseOnClickOutsideTest />
+        {/* <UseOnClickOutsideTest /> */}
       </div>
     </>
   );
