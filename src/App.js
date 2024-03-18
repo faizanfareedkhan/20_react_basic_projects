@@ -16,6 +16,7 @@
 // import FeatureFlags from "./components/feature-flag";
 // import FeatureFlagGlobalState from "./components/feature-flag/context";
 import "./App.css";
+import UseFetchHookTest from "./components/use-fetch/test";
 
 function App() {
   return (
@@ -71,6 +72,9 @@ function App() {
         {/* <FeatureFlagGlobalState>
           <FeatureFlags />
         </FeatureFlagGlobalState> */}
+
+        {/* This is UseFetch Custom Hook Component */}
+        <UseFetchHookTest />
       </div>
     </>
   );
