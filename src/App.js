@@ -77,7 +77,7 @@ function App() {
         {/* This is UseFetch Custom Hook Component */}
         {/* <UseFetchHookTest /> */}
 
-        {/* This is Use onClick Hook Component */}
+        {/* This is UseonClickOutside Custom Hook Component */}
         <UseOnClickOutsideTest />
       </div>
     </>
