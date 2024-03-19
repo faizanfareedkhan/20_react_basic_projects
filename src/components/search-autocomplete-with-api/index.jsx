@@ -47,9 +47,11 @@ const SearchAutoComplete = () => {
       console.log(error);
     }
   }
+
   useEffect(() => {
     fetchListOfUsers();
   }, []);
+
   console.log(users, filteredUsers);
 
   return (

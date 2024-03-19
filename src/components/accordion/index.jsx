@@ -19,6 +19,7 @@ const Accordian = () => {
     else cpyMultiple.splice(findIndexOfCurrentId, 1);
     setMultiple(cpyMultiple);
   }
+
   console.log(selected, multiple);
 
   return (

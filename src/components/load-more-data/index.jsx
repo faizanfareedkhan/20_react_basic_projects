@@ -38,6 +38,7 @@ export default function LoadMoreData() {
   if (loading) {
     return <div>Loading Data! Please Wait</div>;
   }
+
   return (
     <>
       <div className="load-more-container">

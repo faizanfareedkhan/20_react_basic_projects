@@ -1,4 +1,5 @@
 import "./modal.css";
+
 const Modal = ({ id, header, body, footer, onClose }) => {
   return (
     <div id={id || "modal"} className="modal">

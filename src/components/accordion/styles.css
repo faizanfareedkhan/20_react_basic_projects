@@ -7,6 +7,7 @@
   flex-direction: column;
   gap: 20px;
 }
+
 .wrapper button {
   padding: 10px 20px;
   background-color: #614101;
@@ -15,6 +16,7 @@
   font-size: 20px;
   cursor: point;
 }
+
 .accordian {
   width: 500px;
 }

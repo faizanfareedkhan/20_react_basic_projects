@@ -10,7 +10,9 @@ const User = ({ user }) => {
     login,
     created_at,
   } = user;
+
   const createdData = new Date(created_at);
+
   return (
     <div>
       <div className="user">

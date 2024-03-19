@@ -7,6 +7,7 @@ const Tabs = ({ tabsContent, onChange }) => {
     setCurrentTabIndex(getCurrentIndex);
     onChange(getCurrentIndex);
   }
+
   return (
     <div className="wrapper">
       <div className="heading">

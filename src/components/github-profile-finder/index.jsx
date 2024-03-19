@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import User from "./user";
 import "./styles.css";
 
-const GithubProfileFInder = () => {
+const GithubProfileFinder = () => {
   const [userName, setUserName] = useState("faizanfareedkhan");
   const [userData, setUserData] = useState(null);
   const [loading, setLoading] = useState(true);
@@ -20,6 +20,7 @@ const GithubProfileFInder = () => {
       setLoading(false);
       setUserName("");
     }
+
     console.log(data);
   }
 
@@ -48,4 +49,4 @@ const GithubProfileFInder = () => {
   );
 };
 
-export default GithubProfileFInder;
+export default GithubProfileFinder;

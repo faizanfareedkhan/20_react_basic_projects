@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import "./scroll.css";
 
 const ScrollIndicator = ({ url }) => {
@@ -29,7 +29,6 @@ const ScrollIndicator = ({ url }) => {
 
   useEffect(() => {
     window.addEventListener("scroll", handleScrollPercentage);
-
     return () => {
       window.removeEventListener("scroll", () => {});
     };
@@ -42,8 +41,10 @@ const ScrollIndicator = ({ url }) => {
       document.documentElement.scrollHeight,
       document.documentElement.clientHeight
     );
+
     const howMuchScrolled =
       document.body.scrollTop || document.documentElement.scrollTop;
+
     const height =
       document.documentElement.scrollHeight -
       document.documentElement.clientHeight;

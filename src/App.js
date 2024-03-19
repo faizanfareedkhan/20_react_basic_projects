@@ -10,7 +10,7 @@
 // import ScrollIndicator from "./components/scroll-indicator";
 // import TabTest from "./components/custom-tabs/tab-test";
 // import ModalTest from "./components/custom-modal-popup/modal-test";
-// import GithubProfileFInder from "./components/github-profile-finder";
+// import GithubProfileFinder from "./components/github-profile-finder";
 // import SearchAutoComplete from "./components/search-autocomplete-with-api";
 // import TicTacToe from "./components/tic-tac-toe";
 // import FeatureFlags from "./components/feature-flag";
@@ -19,13 +19,15 @@
 // import UseOnClickOutsideTest from "./components/use-outside-click/test";
 // import UseWindowResizeTest from "./components/use-window-resize/test";
 // import ScrollToTopAndBottom from "./components/scroll-to-top-and-bottom";
+// import ScrollToSection from "./components/scroll-to-top-and-bottom/scroll-to-section";
 import "./App.css";
-import ScrollToSection from "./components/scroll-to-top-and-bottom/scroll-to-section";
 
 function App() {
   return (
     <>
       <div className="App">
+        {/* This is Twenty React Functionalities */}
+
         {/* This is our Accordian Co>mponent */}
         {/* <Accordian /> */}
 
@@ -64,7 +66,7 @@ function App() {
         {/* <ModalTest /> */}
 
         {/* This is Github Profile Finder Component */}
-        {/* <GithubProfileFInder /> */}
+        {/* <GithubProfileFinder /> */}
 
         {/* This is Search Auto Complete Component */}
         {/* <SearchAutoComple te /> */}
@@ -90,7 +92,7 @@ function App() {
         {/* {<ScrollToTopAndBottom />} */}
 
         {/* This is Scroll To Particular Section */}
-        <ScrollToSection />
+        {/* <ScrollToSection /> */}
       </div>
     </>
   );

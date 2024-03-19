@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import QRCode from "react-qr-code";
 
 const QRCodeGenerator = () => {
@@ -9,6 +9,7 @@ const QRCodeGenerator = () => {
     setQrCode(input);
     setInput("");
   }
+
   return (
     <div>
       <h1>QR Code Generator</h1>

@@ -1,15 +1,19 @@
 import { useState } from "react";
 import MenuList from "./menu-list";
 import { FaMinus, FaPlus } from "react-icons/fa";
+
 export default function MenuItem({ item }) {
   const [displayCurrentChildren, setDisplayCurrentChildren] = useState({});
+
   function handleToggleChildren(getCurrentLabel) {
     setDisplayCurrentChildren({
       ...displayCurrentChildren,
       [getCurrentLabel]: !displayCurrentChildren[getCurrentLabel],
     });
   }
+
   console.log(displayCurrentChildren);
+
   return (
     <li>
       <div className="menu-item">

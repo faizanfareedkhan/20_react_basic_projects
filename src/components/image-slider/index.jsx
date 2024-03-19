@@ -30,6 +30,7 @@ export default function ImageSlider({ url, limit = 5, page = 1 }) {
   function handleNext() {
     setCurrentSlide(currentSlide === images.length - 1 ? 0 : currentSlide + 1);
   }
+
   useEffect(() => {
     if (url !== "") fetchImages(url);
   }, [url]);
@@ -41,6 +42,7 @@ export default function ImageSlider({ url, limit = 5, page = 1 }) {
   if (errorMsg !== null) {
     return <div>Error Occured !{errorMsg}</div>;
   }
+
   return (
     <>
       <div className="container">

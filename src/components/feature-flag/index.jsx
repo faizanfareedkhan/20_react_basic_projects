@@ -1,12 +1,12 @@
 import LightDarkMode from "../light-dark-mode";
-import { RandomColor } from "../randon-color";
+import RandomColor from "../randon-color";
 import TicTacToe from "../tic-tac-toe";
 import Accordian from "../accordion";
 import TreeView from "../tree-view";
 import TabTest from "../custom-tabs/tab-test";
 import menus from "../tree-view/data";
-import { useContext } from "react";
 import { FeatureFlagsContext } from "./context";
+import { useContext } from "react";
 
 const FeatureFlags = () => {
   const { loading, enabledFlags } = useContext(FeatureFlagsContext);
@@ -43,6 +43,7 @@ const FeatureFlags = () => {
   }
 
   if (loading) return <h1>Loadin Data ! Please Wait</h1>;
+
   return (
     <div>
       <h1>Feature Flags</h1>

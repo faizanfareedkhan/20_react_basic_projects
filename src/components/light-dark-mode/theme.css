@@ -20,6 +20,7 @@
   font-size: 20px;
   transition: 0.5s;
 }
+
 .light-dark-mode .container {
   display: flex;
   justify-content: center;
@@ -27,6 +28,7 @@
   flex-direction: column;
   gap: 30px;
 }
+
 .light-dark-mode .container p {
   color: var(--text-primary);
   font-size: 40px;

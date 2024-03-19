@@ -24,6 +24,7 @@ const TabTest = () => {
   function handleChange(currentTabIndex) {
     console.log(currentTabIndex);
   }
+
   return <Tabs tabsContent={tabs} onChange={handleChange} />;
 };
 

@@ -4,6 +4,7 @@ import useOutsideClick from ".";
 const UseOnClickOutsideTest = () => {
   const [showContent, setShowContent] = useState(false);
   const ref = useRef();
+
   useOutsideClick(ref, () => setShowContent(false));
 
   return (
