@@ -9,7 +9,6 @@ This repository contains a collection of React.js functionalities, each serving 
 2. [Usage](#usage)
 3. [Functionalities](#functionalities)
 4. [Contributing](#contributing)
-5. [License](#license)
 
 ## Installation
 
